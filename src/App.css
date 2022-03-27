@@ -1,0 +1,44 @@
+.main.container {
+  margin-top: 50px;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.hero {
+  height: 700px;
+  background-size: cover;
+}
+
+.hero-text {
+  color: white;
+  position: absolute;
+  display: block;
+  pointer-events: auto;
+  left: 50%;
+  z-index: 7;
+  visibility: visible;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 82px;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: anton;
+}
+
+.hero-text::after {
+  content: "";
+  border-bottom: 3px solid white;
+  width: 15%;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
