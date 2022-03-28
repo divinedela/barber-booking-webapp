@@ -1,3 +1,7 @@
+:root {
+  --color-primary: rgb(126, 16, 80);
+}
+
 .main.container {
   margin-top: 50px;
 }
@@ -42,3 +46,71 @@
   left: 50%;
   transform: translate(-50%, 50%);
 }
+
+.pricing-section {
+  display: flex;
+  margin: 4rem 0;
+}
+
+.pricing-item {
+  width: 23%;
+  margin: 0 1% 40px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing_box {
+  text-align: center;
+  position: relative;
+  line-height: 0;
+  transition: all 0.2s;
+}
+
+.pricing_box:hover {
+  transform: scale(1.02);
+}
+
+.pricing_box a {
+  display: block;
+  color: white;
+}
+
+.pricing_box a:hover {
+  color: white;
+}
+
+.pricing_box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pricing_box .desc {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  padding: 20px 15px 35px;
+  box-sizing: border-box;
+  font-family: "Yeseva One", Helvetica, Arial, sans-serif;
+}
+
+.pricing_box .desc .subtitle {
+  background-color: var(--color-primary);
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  line-height: normal;
+  letter-spacing: 1px;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-image: url(https://themes.muffingroup.com/be/hairdresser/wp-content/themes/betheme/images/stripes/stripes_10_w.png);
+}
+
+
+
+
