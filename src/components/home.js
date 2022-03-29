@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "./common/hero";
 import Pricing from "./common/pricing";
+import Copyright from "./copyright";
 
 const Home = () => {
   const heroImageUrl =
@@ -50,6 +51,7 @@ const Home = () => {
           />
         ))}
       </div>
+      <Copyright />
     </>
   );
 };
