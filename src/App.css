@@ -1,5 +1,6 @@
 :root {
   --color-primary: rgb(126, 16, 80);
+  --color-body: white;
 }
 
 .main.container {
@@ -45,6 +46,23 @@
   bottom: -10px;
   left: 50%;
   transform: translate(-50%, 50%);
+}
+
+/* pricing section */
+.section-heading {
+  color: var(--color-body);
+  text-align: center;
+  padding: 3.5rem 0 3rem;
+  font-family: anton;
+}
+
+.section-heading .main-heading {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+}
+
+.section-heading .sub-heading {
+  text-transform: capitalize;
 }
 
 .pricing-section {
